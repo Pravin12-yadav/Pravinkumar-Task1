@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    padding:22px;
+    width:100%;
+    position: fixed;
+    top:0%;
+    background-color: rgb(63, 62,62);
+    z-index: 999;
+
+}
+nav ul{
+    display: flex;
+    align-items:center;
+}
+ul li{
+    list-style: none;
+    margin-inline:10px;
+}
+ul li a{
+    text-decoration: none;
+    font-size:20px;
+    color:white;
+}
+ul li a:hover{
+    color:orangered;
+    border-bottom: 2px solid orangered;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icons i{
+    margin-inline: 18px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 4px;
+    padding:8px;
+}
+.logo h1{
+    font-size:30px;
+    color:white;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    background: url(image8.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 44px;
+    padding-top: 100px;
+    margin-top:80px;
+
+}
+.maintext{
+    margin-top:78px;
+}
+.maintext h1 {
+    font-size:50px;
+}
+.maintext h3{
+    font-size:30px;
+    margin-top: 12px;
+}
+.maintext p{
+    font-size: 20px;
+    margin-top:5px;
+}
+.maintext button{
+    font-size:20px;
+    width:140px;
+    height:36px;
+    border:2px solid rgb(8,212,8);
+    color:white;
+    background-color: transparent;
+    margin-top:22px;
+}
+.maintext h1 span{
+    color:green;
+}
+.maintext h3 span{
+    color:red;
+}
+.logo h1 span{
+    color:red;
+}
+.maintext button:hover{
+    background-color:rgb(8,212,8);
+}
+.cards{
+    display: grid;
+    width:80%;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin:auto;
+}
+.cards .crd{
+    margin-inline: 22px;
+    background-color: #fff;
+    margin-top: 10%;
+    width:320px;
+    height:380px;
+    margin-bottom:20px;
+
+}
+.crd:hover{
+    background-color: rgb(179,179,179);
+}
+.crd h3{
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.crd p{
+    padding:10px;
+}
+.crd button{
+    width:90px;
+    height:39px;
+    background-color: orangered;
+    color:white;
+    font-size:18px;
+    border:none;
+    margin-top:11px;
+    margin-left:11px;
+}
+.crd button:hover{
+    background-color: transparent;
+    border:2px solid orangered;
+    color:black;
+}
+.cards .crd img{
+    width:100%;
+    height:200px;
+}
+.head{
+    text-align: center;
+    padding:90px;
+    font-size:28px;
+    background-color: orangered;
+}
+.head h3 span{
+    color:blue;
+}
+.review{
+    width:80%;
+    position:relative;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin:auto;
+}
+.review .slid{
+    position:absolute;
+    width:100%;
+    height:100%;
+    padding:3px;
+
+}
+.slide img{
+    width: 80%;
+    height: 70%;
+    border-radius: 60%;
+    border:2px slid black;
+    padding:20px;
+    overflow: hidden;
+}
+.review .slide p{
+    padding:20px;
+}
+.head1{
+    text-align: center;
+    padding:90px;
+    font-size:28px;
+    background-color: orangered;
+    margin-top:20px;
+}
+.head1 h3 span{
+    color:blue;
+}
